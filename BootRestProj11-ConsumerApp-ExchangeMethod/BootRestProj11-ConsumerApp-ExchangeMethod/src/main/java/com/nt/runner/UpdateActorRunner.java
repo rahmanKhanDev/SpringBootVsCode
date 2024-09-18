@@ -21,7 +21,7 @@ public class UpdateActorRunner implements CommandLineRunner {
         // producer url
         String serviceUrl = "http://localhost:4041/RestMiniProject/actor-api/update";
         // Request body
-        String json_body = "{\"aid\": 102,\"aname\":\"Tiger Shroff\",\"addrs\":\"Delhi\",\"remuneration\": 4567098.987,\"active_SW\":\"active\"}";
+        String json_body = "{\"aid\": 152,\"aname\":\"Sharukh Khan\",\"addrs\":\"Mumbai\",\"remuneration\": 456709854.987,\"active_SW\":\"active\"}";
         // create header
         HttpHeaders header = new HttpHeaders();
         // set header
@@ -32,9 +32,9 @@ public class UpdateActorRunner implements CommandLineRunner {
         ResponseEntity<String> response = template.exchange(serviceUrl, HttpMethod.PUT, entity, String.class);
 
         // process response
-        System.out.println(response.getHeaders() + "/n/n");
-        System.out.println(response.getBody() + "/n/n");
-        System.out.println(response.getStatusCode() + "/n/n");
+        System.out.println(response.getHeaders() + "\n");
+        System.out.println(response.getBody() + "\n");
+        System.out.println(response.getStatusCode() + "\n");
 
         // exit
         System.exit(0);
