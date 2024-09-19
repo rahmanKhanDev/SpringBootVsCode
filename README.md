@@ -1,1 +1,1 @@
-This is a RestFul webServices project repo devloped using VsCode
+This is a Spring Boot project repo devloped using VsCode
