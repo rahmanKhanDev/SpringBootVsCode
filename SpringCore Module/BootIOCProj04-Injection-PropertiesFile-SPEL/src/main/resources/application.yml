@@ -1,0 +1,18 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: BootIOCProj04-Injection-PropertiesFile-SPEL
+java:
+  fee: 5000
+python:
+  fee: 3000
+andriod:
+  fee: 6000
+UI:
+  fee: 4000
+inst:
+  name: Naresh IT
+  add: Hyderabad
+  contact: 9391093924

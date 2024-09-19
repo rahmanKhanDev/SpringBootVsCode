@@ -1,0 +1,12 @@
+com:
+ nt:
+  id: 101
+  name: Naresh IT technology
+  add: Hyderabad
+  contact: 999999
+  branch: [dhaka,motihari,patna]
+   
+cust:
+ info:
+  nickNames: [sonu,monu,mintu]
+ 
