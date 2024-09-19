@@ -1,0 +1,3 @@
+name: sonu khan
+age:26
+qualification: B.E
